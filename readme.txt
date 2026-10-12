@@ -22,32 +22,39 @@ Talking to classmates about class material, assignment requirements, etc. is a g
 2. What (a) basic features, (b) CSS features, and (c) advanced features did you include in your portfolio?
 
 (a) Basic features
-
+- image with descriptive alt attribute (photo of me)
+- headings for section headers, paragraph for other text
+- links to external pages (Linkedin, Github, email)
+- custom icons from Font Awesome
+- multiple pages and navigation between them (About, Experience, Resume)
 
 
 (b) CSS features
-
-
+- modifying padding/margins
+- modifying link/text color, including changing color when hovering over the navbar links
+- implemented Bootstrap cards to display projects
+- added custom Google fonts (Outfit and Dongle)
 
 (c) Advanced features
-
-
+- included a navbar
+- leveraged descendant selectors in CSS file
 
 
 3. Did you ignore any of the warnings or errors presented by the accessibility checker? If so, why does this not seem like an accessibility concern? If it's useful, you can consolidate your thoughts on multiple warnings/errors if the rationale is similar.
-
+No I did not.
 
 
 4. How long, in hours, did it take you to complete this assignment?
-4-5 hours.
+5 hours.
 
 
 5. What online resources did you consult when completing this assignment? (list specific URLs, describe queries to Generative AI, or use of AI-based code completion)
 Mozilla, W3 schools
-W3 schools, geeksforgeeks, Reddit, etc.
+W3 schools, geeksforgeeks, Reddit, fontawesome, etc.
 https://www.geeksforgeeks.org/techtips/embed-google-drive-images-in-your-website-and-emails/
 https://www.w3schools.com/bootstrap5/bootstrap_navbar.php 
 https://www.reddit.com/r/css/comments/xd0io8/how_can_i_keep_the_original_aspect_ratio_of_the/ 
+https://fontawesome.com/search
 
 6. What classmates or other individuals did you consult as part of this assignment? What did you discuss?
 I did not discuss with any other individuals.

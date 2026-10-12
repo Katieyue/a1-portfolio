@@ -83,13 +83,21 @@ h1,
   /* border:#732b59 */
 }
 
-/* .experience {
-  width: 900px;
-} */
-
 .projects {
   width: 900px;
+  display: flex;
+  justify-content: space-between;
+  gap: 10px;
+  flex: 1 1 150px;
 }
+
+@media (max-width: 570px) {
+  .projects {
+    flex-direction: column;
+    width: 400px;
+  }
+}
+  
 
 .card {
   border-color: #732b59;
@@ -100,9 +108,4 @@ h1,
   background-color: #F3E7F0;
 }
 
-.projects {
-  display: flex;
-  justify-content: space-between;
-  gap: 10px;
-  flex: 1 1 150px;
-}
+
