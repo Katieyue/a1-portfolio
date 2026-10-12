@@ -1,7 +1,56 @@
 body {
   background-color: rgb(209, 243, 255);
+  font-family: "Outfit";
+}
+
+nav ol {
+  list-style-type: none;
 }
 
 p {
   color: black;
+}
+
+a {
+  color: purple;
+  text-decoration: none;
+}
+
+a:visited {
+  color: indigo;
+}
+
+h1 {
+  font-family: Dongle;
+  margin-block-start: 0;
+}
+
+.intro {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+
+.greeting {
+  display: flex;
+  flex-direction: column;
+}
+
+/* .text-greeting,
+.socials {
+  flex: 1;
+} */
+
+.profile-pic {
+  flex-basis: auto;
+}
+
+.profile-pic img {
+  object-fit: cover;
+  /* align-self: center; */
+  /* flex-grow: 0; */
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
 }
