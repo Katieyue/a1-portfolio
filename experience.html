@@ -3,12 +3,68 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+    />
     <link rel="stylesheet" href="styles.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Changa+One:ital@0;1&family=Dongle:wght@300;400;700&family=Outfit:wght@100..900&display=swap"
+      rel="stylesheet"
+    />
+    <script
+      src="https://kit.fontawesome.com/484de88ec2.js"
+      crossorigin="anonymous"
+    ></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"></script>
+
     <title>Document</title>
   </head>
-  <body>
-    <div id="experience">
-      <h1>Experience</h1>
+  <body class="container experience">
+    <nav class="navbar navbar-expand-sm">
+      <a href="index.html">About</a>
+      <a href="experience.html">Experience</a>
+      <a href="other.html">Other</a>
+    </nav>
+
+    <h1>experience</h1>
+    <p>Here are some projects or other activites I've been involved in!</p>
+
+    <div class="container">
+      <div class="projects">
+        <div class="card">
+          <img src="broncoGPT.png" alt="BroncoGPT image" />
+          <div class="card-header">
+            BroncoGPT
+            <a
+              href="https://github.com/ctmatu/BroncoGPT"
+              target="_blank"
+              rel="noreferrer"
+              ><i class="fa-brands fa-github"></i
+            ></a>
+          </div>
+          <div class="card-body">
+            RAG AI chatbot for Cal Poly Pomona's website, aimed at informing
+            incoming and current students. Built using Python, FastAPI, Uvicorn,
+            OpenRouter API, HTML, CSS, and JavaScript for the Cal Poly Pomona
+            MISSA ITC Competition (<strong>3rd place winner</strong>).
+          </div>
+        </div>
+
+        <div class="card">
+          <!-- col-sm-5 -->
+          <img src="myos.png" alt="BroncoGPT image" />
+          <div class="card-header">Myos</div>
+          <div class="card-body">
+            Mobile app prototype designed using Figma, aimed at assisting
+            dementia caretakers and aiding in cognitive overload. Winner of
+            <strong>People's Choice Award</strong> at Design@UCI Project Teams
+            Demo Day Spring 2026.
+          </div>
+        </div>
+      </div>
     </div>
   </body>
 </html>

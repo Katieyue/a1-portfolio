@@ -8,7 +8,8 @@ nav ol {
 }
 
 p {
-  color: black;
+  color: #371a3b;
+  font-size: 20px;
 }
 
 a {
@@ -20,8 +21,10 @@ a:visited {
   color: indigo;
 }
 
-h1 {
+h1,
+.text-greeting {
   font-family: Dongle;
+  font-size: 300%;
   margin-block-start: 0;
 }
 
@@ -30,12 +33,18 @@ h1 {
   flex-direction: row;
   justify-content: center;
   align-items: center;
+  margin-bottom: 10px;
 }
 
 .greeting {
   display: flex;
   flex-direction: column;
 }
+
+/* .socials {
+  display: flex;
+  size: 100px;
+} */
 
 /* .text-greeting,
 .socials {
@@ -50,7 +59,22 @@ h1 {
   object-fit: cover;
   /* align-self: center; */
   /* flex-grow: 0; */
-  width: 200px;
-  height: 200px;
+  width: 250px;
+  height: 250px;
   border-radius: 50%;
+}
+
+.experience {
+  width: 900px;
+}
+
+.card-header {
+  font-weight: 2px;
+}
+
+.projects {
+  display: flex;
+  justify-content: space-between;
+  gap: 10px;
+  flex: 1 1 150px;
 }
