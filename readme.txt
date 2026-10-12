@@ -39,15 +39,18 @@ Talking to classmates about class material, assignment requirements, etc. is a g
 
 
 4. How long, in hours, did it take you to complete this assignment?
-1
+4-5 hours.
 
 
 5. What online resources did you consult when completing this assignment? (list specific URLs, describe queries to Generative AI, or use of AI-based code completion)
 Mozilla, W3 schools
-
+W3 schools, geeksforgeeks, Reddit, etc.
+https://www.geeksforgeeks.org/techtips/embed-google-drive-images-in-your-website-and-emails/
+https://www.w3schools.com/bootstrap5/bootstrap_navbar.php 
+https://www.reddit.com/r/css/comments/xd0io8/how_can_i_keep_the_original_aspect_ratio_of_the/ 
 
 6. What classmates or other individuals did you consult as part of this assignment? What did you discuss?
-
+I did not discuss with any other individuals.
 
 
 7. Is there anything special we need to know in order to run your code?

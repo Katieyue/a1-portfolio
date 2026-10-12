@@ -1,5 +1,5 @@
 body {
-  background-color: rgb(209, 243, 255);
+  background-color: #fffdf9;
   font-family: "Outfit";
 }
 
@@ -13,12 +13,30 @@ p {
 }
 
 a {
-  color: purple;
+  color: #732b59;
   text-decoration: none;
 }
 
 a:visited {
-  color: indigo;
+  color: #553238;
+}
+
+/* .navbar {
+  background-color: #EEDFFC;
+} */
+
+.navbar-nav {
+  font: 30px "Dongle";
+}
+
+.nav-item {
+  padding: 2px 8px;
+  margin: 2px;
+  border-radius: 5px;
+}
+
+.nav-item:hover {
+  background-color: #F3E7F0;
 }
 
 h1,
@@ -43,7 +61,7 @@ h1,
 
 /* .socials {
   display: flex;
-  size: 100px;
+  width: 60px;
 } */
 
 /* .text-greeting,
@@ -62,14 +80,24 @@ h1,
   width: 250px;
   height: 250px;
   border-radius: 50%;
+  /* border:#732b59 */
 }
 
-.experience {
+/* .experience {
+  width: 900px;
+} */
+
+.projects {
   width: 900px;
 }
 
+.card {
+  border-color: #732b59;
+}
+
 .card-header {
-  font-weight: 2px;
+  font: normal bold 30px "Dongle";
+  background-color: #F3E7F0;
 }
 
 .projects {
